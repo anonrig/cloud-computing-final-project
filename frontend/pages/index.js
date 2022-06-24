@@ -61,7 +61,7 @@ export default function Home() {
     } else {
       getEntries()
     }
-  }, [])
+  }, [getEntries, router])
 
   console.log(entry)
 

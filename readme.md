@@ -1,5 +1,13 @@
 # Cloud Computing Project
 
+## Docker
+
+- Run the following command and go to `http://localhost:3000` on your local machine.
+
+```shell
+docker compose up
+```
+
 ## Frontend
 
 Built on top of Next.js, Tailwind.css.

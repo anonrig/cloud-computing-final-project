@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "prod:start": "npm run db:push && npm start",
     "dev": "npx nodemon",
     "lint": "rome format . --write",
     "generate": "prisma generate",
